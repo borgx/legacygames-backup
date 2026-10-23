@@ -1,0 +1,23 @@
+# Personal backups / links - never commit
+LegacyGamesBackup/
+**/legacygames_links.csv
+**/legacygames_links.csv.bak
+**/legacygames_links.csv.tmp
+**/legacygames_urls.txt
+**/checksum_verification.csv
+**/installers/
+*.exe
+*.exe.part
+*.exe.part.json
+*.exe.part.json.tmp
+
+# Local secrets and Python artifacts
+.env
+.env.*
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+venv/
+*.log
+.DS_Store
